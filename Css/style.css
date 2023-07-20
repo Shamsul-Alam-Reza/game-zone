@@ -63,3 +63,80 @@
     padding: 1rem 1.5rem 1rem;
     cursor: pointer;
 }
+/* End of Nav */
+
+.navber{
+    background-image: linear-gradient(to right,#f8ecfc 0%, white 110%);
+}
+.navber-container{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+.navber{
+}
+.navber-title{
+    
+    background-image: url('../images/Group\ 14.png');
+    width: 50%;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    padding-left: 12.5%;
+}
+.navber-pic{
+    padding-right: 12.5%;
+}
+.navber-title h1{
+    font-size: 5rem;
+    background-image: linear-gradient(to bottom,#f372d7 , #9a13ee);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.navber h2{
+    font-size: 3rem;
+    
+}
+.navber-title img{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+}
+.navber-title h1,h2{
+    padding-top: 1rem;
+    /* cursor: pointer; */
+}
+.navber p{
+    padding-top: 1rem;
+    cursor: pointer;
+}
+.navber-title a{
+    /* text-decoration: none; */
+}
+.btn-one{
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    cursor: pointer;
+}
+.btn-two{
+    margin-left: 1rem;
+    background-color: #4EC5F7;
+    cursor: pointer;
+}
+.btn{
+    margin-top: 1.5rem;
+    padding: 1rem 2.5rem;
+    border-radius: 48px;
+    border: none;
+    color: white;
+}
+.navber-pic{
+    width: 50%;
+}
+.navber-pic img{
+    width: 100%;
+    margin-top: 5px;
+    height: 100%;
+}
+/* End of header part */
