@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header-container{
+    padding: 1.5rem 0rem;
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.logo-container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    font-family: Work Sans;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.logo-container img{
+    width: 4.8rem;
+    margin-right: .5rem;
+    /* object-fit: cover; */
+}
+.menu-container{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    align-items: center;
+}
+.menu-container li{
+    list-style: none;
+    margin-left: 1rem;
+    font-size: 1rem;
+    /* margin-left: 5%; */
+}
+.fa-youtube{
+    color: red;
+    font-size: 1.8rem;
+    margin-left: 1rem;
+}
+.fa-tiktok{
+    color: #000000;
+    font-size: 1.8rem;
+    margin-left: 1rem;
+}
+.menu-container a{
+    text-decoration: none;
+    color: black;
+}
+.menu-icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 1rem 1.5rem 1rem;
+    cursor: pointer;
+}
