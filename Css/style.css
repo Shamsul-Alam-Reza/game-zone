@@ -43,11 +43,12 @@
     color: red;
     font-size: 1.8rem;
     margin-left: 1rem;
+    margin-right: 1rem;
 }
 .fa-tiktok{
     color: #000000;
     font-size: 1.8rem;
-    margin-left: 1rem;
+    /* margin-left: 1rem; */
 }
 .menu-container a{
     text-decoration: none;
@@ -278,4 +279,68 @@
     align-items: center;
     justify-content: center;
     /* border: 2px solid red; */
+}
+
+/* Footer Start */
+.footer-logo h2{
+    font-size: 3rem;
+}
+.footer-container{
+    height: 26rem;
+    background-color: #0B0223;
+    color:white;
+    padding:4rem 0;
+}
+.footer-logo{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+.footer-features{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-features li{
+    list-style: none;
+    padding-left: 1rem;
+}
+
+.mark{
+    color:#FF42A5;
+}
+
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+}
+.footer-icons li{
+    list-style: none;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.footer-icons a{
+    color: white;
+}
+.footer-terms{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+    font-size: .8rem;
+}
+.footer-terms li{
+    list-style: none;
+    padding-left: 1rem;
+    cursor: pointer;
+}
+.copy-policy{
+    padding-top: 5rem;
+    text-align: center;
+    font-size: .8rem;
 }
